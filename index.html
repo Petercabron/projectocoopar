@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coopar</title>
+    <!--Font Montserrat-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;700&display=swap" rel="stylesheet">
+    <!--Link Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <!--Link Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" data-purpose="Layout StyleSheet" title="Web Awesome"
+        href="/css/app-wa-02670e9412103b5852dcbe140d278c49.css?vsn=d">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-light.css">
+    <!--Link CSS-->
+    <link rel="stylesheet" href="/projeto css/index.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!--Cookies-->
+    <style>
+        .cookieConsentContainer {
+            z-index: 999;
+            width: 350px;
+            min-height: 20px;
+            box-sizing: border-box;
+            padding: 30px 30px 30px 30px;
+            background: #003433;
+            overflow: hidden;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            display: none
+        }
+
+        .cookieConsentContainer .cookieTitle a {
+            font-family: Montserrat;
+            color: #fff;
+            font-size: 22px;
+            line-height: 20px;
+            display: block
+        }
+
+        .cookieConsentContainer .cookieDesc p {
+            margin: 0;
+            padding: 0;
+            font-family: Montserrat;
+            color: #fff;
+            font-size: 14px;
+            line-height: 20px;
+            display: block;
+            margin-top: 10px
+        }
+
+        .cookieConsentContainer .cookieDesc a {
+            font-family: Montserrat;
+            color: #fff;
+            text-decoration: underline
+        }
+
+        .cookieConsentContainer .cookieButton a {
+            display: inline-block;
+            font-family: Montserrat;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 700;
+            margin-top: 14px;
+            background: #8ec044;
+            box-sizing: border-box;
+            padding: 15px 24px;
+            text-align: center;
+            transition: background .3s
+        }
+
+        .cookieConsentContainer .cookieButton a:hover {
+            cursor: pointer;
+            background: #f7eecf;
+            color: #003433;
+        }
+
+        @media (max-width:980px) {
+            .cookieConsentContainer {
+                bottom: 0 !important;
+                left: 0 !important;
+                width: 100% !important
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="fixed-top">
+        <!--Header 1-->
+        <div class="container">
+            <div id="row-header" class="row">
+                <div class="col-1"></div>
+                <div id="coluna" class="col-2 justify-content-center">
+                    <img style="height: 30px;" src="/img/icone_telefone.svg" alt="">
+                    <p id="texto-header-1"><a style="text-decoration: none;" href="tel:+351 926 931 125">tlf: +351 266
+                            499 115*</a><br> TELEFONE</p>
+                </div>
+                <div id="coluna" class="col-2 justify-content-start">
+                    <img style="height: 30px;" src="/img/icone_email.svg" alt="">
+                    <p id="texto-header-1"><a style="text-decoration: none;"
+                            href="mailto:info@coopar.pt">info@coopar.pt</a><br>E-Mail</p>
+                </div>
+                <div style="justify-content: right;" class="col">
+                    <div id="header-face" class="background-rede">
+                        <a href="https://www.facebook.com/coopar.arraiolos"><i class="fa-brands fa-facebook-f"></i></a>
+                    </div>
+                </div>
+                <div style="justify-content: left;" class="col">
+                    <div id="header-insta" class="background-rede">
+                        <a href="https://www.instagram.com/coopararraiolos"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Header 2-->
+        <section class="header-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div id="header2-logo" class="col-5">
+                        <a href="http://127.0.0.1:5500/projeto%20html/index.html"><img id="logo"
+                                src="/img/Logo_COOPAR_horizontal.svg" alt=""></a>
+                    </div>
+                    <div class="col-1"></div>
+                    <div id="menu-mobile" style="display: flex; align-items: center; justify-content: center;"
+                        class="col-5">
+                        <nav id="nav">
+                            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
+                                aria-expanded="false">Menu
+                                <i id="bars" class="fa-solid fa-bars"></i>
+                                <i id="xmark" class="fa-solid fa-xmark"></i>
+                            </button>
+                            <ul id="menu" role="menu">
+                                <li><a onclick="removeActive()" class="col" href="#acoopar">
+                                        <p>A COOPAR</p>
+                                    </a></li>
+                                <li><a onclick="removeActive()" class="col" href="#aloja">
+                                        <p>A LOJA</p>
+                                    </a></li>
+                                <li><a onclick="removeActive()" class="col" href="#serviços">
+                                        <p>SERVIÇOS</p>
+                                    </a></li>
+                                <li><a onclick="removeActive()" class="col" href="#contactos">
+                                        <p>CONTACTOS</p>
+                                    </a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <!--Vídeo-->
+    <section id="acoopar">
+        <div class="background-video">
+            <video autoplay muted loop>
+                <source src="/img/entrada_COOPAR(1080p).mp4" type="video/mp4">
+            </video>
+            <div id="texto-video" class="content">
+                <div class="texto-video">
+                    <p id="texto-acoopar"><b>A COOPAR,</b></p>
+                    <p id="p-acoopar">é a Cooperativa Agrícola de Compra e Venda do Concelho de Arraiolos,
+                        CRL.
+                        <br>Está reconhecida pela DGADR para poder prestar todos os serviços de assistência técnica e
+                        serviços de Aconselhamento Agrícola e Florestal (SAAF).
+                        <br>A COOPAR tem protocolo com a CONFAGRI para prestar todos os serviços aos agricultores no
+                        âmbito do IFAP.
+                    </p>
+                    <div>
+                        <a class="btn" href="#serviços" role="banner">VER SERVIÇOS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Loja-->
+    <section id="aloja">
+        <div class="container">
+            <div class="row" id="loja-row">
+                <div id="loja-col" class="col-6">
+                    <img id="loja-img" src="/img/lojateste.png" alt="Loja Coopar">
+                </div>
+                <div id="col-loja" class="col-5">
+                    <p id="texto-loja"><b>A nossa loja, <br>no centro <br>de Arraiolos</b></p>
+                    <hr class="linha-loja">
+                    <p id="p-loja">Silicones e Colas
+                        <br>Tintas
+                        <br>Ferramentas
+                        <br>Pregos/Parafusos/Porcas
+                        <br>Calçado de trabalho
+                        <br>Produtos de limpeza
+                        <br>Adubos
+                        <br>Rações para animais Valouro
+                        <br>Comida para gato, cão, pássaros
+                        <br>Sementes e plantas com raíz
+                        <br>Produtos para o jardim (vasos, terra para plantas, mangueiras)
+                    </p>
+                </div>
+                <div class="col-1"></div>
+            </div>
+        </div>
+    </section>
+
+    <!--Serviços-->
+    <section id="serviços">
+        <div id="background-serviços" class="container">
+            <div id="row-mobile-serviços" style="padding-top: 5%;" class="row align-items-center">
+                <div id="col-serviços" class="col-4">
+                    <p id="título-serviços"><b>Os nossos<br>serviços</b></p>
+                    <hr class="linha-serviços">
+                </div>
+                <div id="texto-serviços" class="col-7">
+                    <p>A COOPAR está reconhecida pela DGADR para poder prestar todos os serviços de assistência técnica
+                        e serviços de Aconselhamento Agrícola e Florestal (SAAF).
+                        <br>Temos protocolo com a CONFAGRI para prestar serviços aos agricultores no âmbito do IFAP.
+                    </p>
+                    <p style="color: white;">PRESTAMOS ASSISTÊNCIA TÉCNICA EM:</p>
+                </div>
+                <div class="col-1"></div>
+            </div>
+            <div id="row-serviços" class="row justify-content-center">
+                <!--Card 1-->
+                <div id="serviço" class="p-2 g-col-3 serviço">
+                    <div class="icon-background">
+                        <img src="/img/icones_servicos-01.svg" alt="">
+                    </div>
+                    <div class="icon-body">
+                        <p>ACONSELHAMENTO AGRÍCOLA E FLORESTAL<br><span
+                                style="color: #f7eecf; font-weight: normal;">(SAAF)</span></p>
+                    </div>
+                </div>
+                <!--Card 2-->
+                <div id="serviço" class="p-2 g-col-3 serviço">
+                    <div class="icon-background">
+                        <img src="/img/icones_servicos-02.svg" alt="">
+                    </div>
+                    <div class="icon-body">
+                        <p>CANDIDATURAS AO INVESTIMENTO AGRÍCOLA</p>
+                    </div>
+                </div>
+                <!--Card 3-->
+                <div id="serviço" class="p-2 g-col-3 serviço">
+                    <div class="icon-background">
+                        <img src="/img/icones_servicos-03.svg" alt="">
+                    </div>
+                    <div class="icon-body">
+                        <p>FORMAÇÃO PROFISSIONAL</p>
+                    </div>
+                </div>
+                <!--Card 4-->
+                <div id="serviço" class="p-2 g-col-3 serviço">
+                    <div class="icon-background">
+                        <img src="/img/icones_servicos-04.svg" alt="">
+                    </div>
+                    <div class="icon-body">
+                        <p>ACONSELHAMENTO AGRÍCOLA E FLORESTAL<br><span
+                                style="color: #f7eecf; font-weight: normal;">(SAAF)</span></p>
+                    </div>
+                </div>
+            </div>
+            <div id="row-serviços" class="row justify-content-center">
+                <!--Card 5-->
+                <div id="serviço" class="p-2 g-col-3 serviço">
+                    <div class="icon-background">
+                        <img src="/img/icones_servicos-05.svg" alt="">
+                    </div>
+                    <div class="icon-body">
+                        <p>SERVIÇO DE PARCELÁRIO <span style="color: #f7eecf; font-weight: normal;">(ISIP)</span> E
+                            IDENTIFICAÇÃO DE BENEFICIÁRIO <span style="color: #f7eecf; font-weight: normal;">(IB)</span>
+                        </p>
+                    </div>
+                </div>
+                <!--Card 6-->
+                <div id="serviço" class="p-2 g-col-3 serviço">
+                    <div class="icon-background">
+                        <img src="/img/icones_servicos-06.svg" alt="">
+                    </div>
+                    <div class="icon-body">
+                        <p>SISTEMA NACIONAL DE INFORMAÇÃO E REGISTO ANIMAL<br><span
+                                style="color: #f7eecf; font-weight: normal;">(SNIRA)</span></p>
+                    </div>
+                </div>
+                <!--Card 7-->
+                <div id="serviço" class="p-2 g-col-3 serviço">
+                    <div class="icon-background">
+                        <img src="/img/icones_servicos-07.svg" alt="">
+                    </div>
+                    <div class="icon-body">
+                        <p>ELABORAÇÃO DE PEDIDOS DE LICENCIAMENTO DE RECURSOS HÍDRICOS E ATIVIDADE
+                            PECUÁRIA</p>
+                    </div>
+                </div>
+                <!--Card 8-->
+                <div id="serviço" class="p-2 g-col-3 serviço">
+                    <div class="icon-background">
+                        <img src="/img/icones_servicos-08.svg" alt="">
+                    </div>
+                    <div class="icon-body">
+                        <p>ASSISTÊNCIA TÉCNICA E ELABORAÇÃO DE CADERNOS DE CAMPO</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Banner-->
+    <div class="container">
+        <div id="row-banner" class="row">
+            <div class="col-1"></div>
+            <div id="col-banner" class="col-3">
+                <img id="banner-serviços" src="/img/icones_banner.svg" alt="">
+            </div>
+            <div class="col-7 justify-content-center">
+                <p id="título-banner">Conheça o nosso espaço e os produtos que temos para os seus afazeres.</p>
+                <p id="texto-banner"><b>Esperamos pela sua visita!</b></p>
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer id="contactos">
+        <div class="container">
+            <div id="footer-container" class="row">
+                <div class="col-1"></div>
+                <div id="col-footer1" class="col-5">
+                    <img id="logo-vert" src="/img/Logo_COOPAR_vertical.svg" alt="">
+                    <p style="text-decoration: underline;">
+                        <a id="link-termos"
+                            href="http://127.0.0.1:5500/projeto%20html/privacidade_cookies.html">Consulte a Política de
+                            Cookies
+                            e Política de Privacidade</a><br>
+                        <a id="link-termos" href="https://www.livroreclamacoes.pt/Inicio/">Livro de Reclamações</a>
+                    </p>
+                </div>
+                <div id="col-footer2" class="col-5">
+                    <div id="contactos-container" class="container">
+                        <div id="row-contactos" class="row">
+                            <div id="col-morada" class="col-8">
+                                <p><b>MORADA</b><br>Rua Cunha Rivara nº7, 7040-033 Arraiolos</p>
+                            </div>
+                            <div class="col-4"></div>
+                        </div>
+                        <div id="row-contactos" class="row">
+                            <div id="col-footer" class="col-4">
+                                <p><b>GERAL</b><br><a href="mailto:geral@coopar.pt">geral@coopar.pt</a><br>
+                                    <a href="tel:+351 926 931 125">tlf: +351 266 499 115*</a>
+                                </p>
+                                <p id="custo">*Custo de chamada local</p>
+                            </div>
+                            <div id="col-footer" class="col-4">
+                                <p><b>LOJA</b><br><a href="mailto:loja@coopar.pt">loja@coopar.pt</a><br>
+                                    <a href="tel:+351 926 931 125">tlf: +351 961 153 477*</a>
+                                </p>
+                            </div>
+                            <div id="col-footer" class="col-4">
+                                <p><b>ASSISTÊNCIA TÉCNICA</b><br><a
+                                        href="mailto:assistencia@coopar.pt">assistencia@coopar.pt</a><br>
+                                    <a href="tel:+351 926 931 125">tlf: +351 926 931 125*</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div id="row-contactos-redes" class="row align-items-start">
+                            <div id="col-footer-redes" class="col-6">
+                                <a href="https://www.facebook.com/coopar.arraiolos"><img id="logo-redes1" class="btn2"
+                                        src="/img/botao_facebook.svg" alt=""></a>
+                                <a href="https://www.instagram.com/coopararraiolos"><img id="logo-redes2" class="btn2"
+                                        src="/img/botao_instagram.svg" alt=""></a>
+                                <i class="fa-light fa-copyright"> COOPAR 2023</i>
+                            </div>
+                            <div id="col-footer" style="padding: 0;" class="col-5">
+                                <img id="img-fina" src="/img/Barra_financiamento.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1"></div>
+            </div>
+        </div>
+    </footer>
+    <script>var purecookieTitle = "Cookies.", purecookieDesc = "Este site utiliza cookies para te propocionar uma melhor experiência.<br>Ao continuar a navegar, você aceita a nossa ", purecookieLink = '<a href="http://127.0.0.1:5500/projeto%20html/privacidade_cookies.html" target="_blank">Política de Cookies.</a>', purecookieButton = "Concordo"; function pureFadeIn(e, o) { var i = document.getElementById(e); i.style.opacity = 0, i.style.display = o || "block", function e() { var o = parseFloat(i.style.opacity); (o += .02) > 1 || (i.style.opacity = o, requestAnimationFrame(e)) }() } function pureFadeOut(e) { var o = document.getElementById(e); o.style.opacity = 1, function e() { (o.style.opacity -= .02) < 0 ? o.style.display = "none" : requestAnimationFrame(e) }() } function setCookie(e, o, i) { var t = ""; if (i) { var n = new Date; n.setTime(n.getTime() + 24 * i * 60 * 60 * 1e3), t = "; expires=" + n.toUTCString() } document.cookie = e + "=" + (o || "") + t + "; path=/" } function getCookie(e) { for (var o = e + "=", i = document.cookie.split(";"), t = 0; t < i.length; t++) { for (var n = i[t]; " " == n.charAt(0);)n = n.substring(1, n.length); if (0 == n.indexOf(o)) return n.substring(o.length, n.length) } return null } function eraseCookie(e) { document.cookie = e + "=; Max-Age=-99999999;" } function cookieConsent() { getCookie("purecookieDismiss") || (document.body.innerHTML += '<div class="cookieConsentContainer" id="cookieConsentContainer"><div style="color: #fff;" class="cookieTitle"><a>' + purecookieTitle + '</a></div><div class="cookieDesc"><p>' + purecookieDesc + " " + purecookieLink + '</p></div><div class="cookieButton"><a onClick="purecookieDismiss();">' + purecookieButton + "</a></div></div>", pureFadeIn("cookieConsentContainer")) } function purecookieDismiss() { setCookie("purecookieDismiss", "1", 7), pureFadeOut("cookieConsentContainer") } window.onload = function () { cookieConsent() };</script>
+    <script src="/projeto js/index.js"></script>
+</body>
+
+</html>

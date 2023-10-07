@@ -1,0 +1,1817 @@
+* {
+    font-family: "Montserrat";
+}
+
+body {
+    padding-top: 8%;
+}
+
+section {
+    overflow: hidden;
+}
+
+/* Header 1*/
+header {
+    background-color: #003433;
+    color: white;
+    margin: 0;
+}
+
+.container {
+    min-height: min-content;
+    height: 100%;
+    flex-direction: column;
+}
+
+#coluna {
+    display: flex;
+    align-items: center;
+}
+
+.container .row .col {
+    display: flex;
+    align-items: center;
+}
+
+#texto-header-1 {
+    position: relative;
+    top: 6px;
+    left: 5px;
+    font-size: 8px;
+}
+
+.container .row .col .background-rede {
+    background-color: #8ec044;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    margin-right: -20px;
+}
+
+.container .row .col .background-rede i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3px;
+}
+
+.container .row .col .background-rede a {
+    text-decoration: none;
+}
+
+/* Header 2*/
+#logo {
+    height: 85px;
+    padding: 3% 0;
+}
+
+.header-2 {
+    background-color: white;
+}
+
+#menu {
+    display: flex;
+    list-style: none;
+    gap: 4rem;
+    padding-left: 0;
+}
+
+#menu a {
+    color: #003433;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+#menu a p {
+    background-image: linear-gradient(#8ec044, #8ec044);
+    background-size: 0% 4px;
+    transition: 500ms;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    margin: 0 auto;
+}
+
+#menu a p:hover {
+    background-size: 100% 4px;
+}
+
+#btn-mobile {
+    display: none;
+}
+
+nav {
+    margin-top: 3%;
+}
+
+/*Vídeo*/
+.background-video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    opacity: 85%;
+}
+
+.content {
+    position: absolute;
+    left: 15%;
+    width: 50%;
+}
+
+#texto-acoopar {
+    color: #003433;
+    text-align: left;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 10px;
+    max-width: 100%;
+}
+
+#p-acoopar {
+    color: #003433;
+    text-align: left;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: #8ec044;
+    border-radius: 6px;
+    font-family: Montserrat;
+    color: white;
+    font-size: 10px;
+    font-weight: 800;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 2%;
+}
+
+.btn:hover {
+    background-color: #003433;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+
+/*Loja*/
+#aloja {
+    padding: 5% 0;
+}
+
+#loja-col {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#loja-img {
+    height: auto;
+    width: 100%;
+    padding: .5% 0;
+}
+
+#texto-loja {
+    color: #003433;
+    text-align: left;
+    font-weight: 800;
+    font-size: 40px;
+    margin-top: 20%;
+    line-height: 40px;
+}
+
+#p-loja {
+    color: #003433;
+    text-align: left;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.linha-loja {
+    border: 4px solid #8ec044;
+    opacity: unset;
+    width: 70px;
+    position: relative;
+    margin: 20px -7%;
+}
+
+/*Serviços*/
+#serviços {
+    background-image: url(/img/Background-serviços.png);
+    background-size: 100% 1020px;
+    height: 1020px;
+    padding-top: 5%;
+}
+
+#título-serviços {
+    color: #003433;
+    text-align: left;
+    font-weight: 800;
+    font-size: 40px;
+    margin-left: 25%;
+    line-height: 40px;
+}
+
+.linha-serviços {
+    border: 4px solid white;
+    opacity: unset;
+    width: 70px;
+    margin-left: 17%;
+}
+
+#texto-serviços {
+    color: #003433;
+    text-align: left;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+#serviço {
+    display: block;
+    width: auto;
+    cursor: pointer;
+}
+
+#row-serviços {
+    gap: 55px;
+}
+
+.icon-background {
+    background-color: #f7eecf;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 200px;
+}
+
+.serviço .icon-background img {
+    height: 120px;
+    width: 120px;
+    padding: 10px 0;
+}
+
+.icon-body {
+    background-color: #003433;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 220px;
+    height: 135px;
+}
+
+.icon-body p {
+    color: white;
+    text-align: left;
+    padding: 10%;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+@-webkit-keyframes serviço {
+    0% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+
+    50% {
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px);
+    }
+
+    100% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+}
+
+@keyframes serviço {
+    0% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+
+    50% {
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px);
+    }
+
+    100% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+}
+
+@-webkit-keyframes icon-background {
+    100% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+}
+
+@keyframes icon-background {
+    100% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+}
+
+#serviço {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+#serviço:hover,
+#serviço:focus,
+#serviço:active {
+    -webkit-animation-name: hvr-bob-float, hvr-bob;
+    animation-name: hvr-bob-float, hvr-bob;
+    -webkit-animation-duration: .3s, 1.5s;
+    animation-duration: .3s, 1.5s;
+    -webkit-animation-delay: 0s, .3s;
+    animation-delay: 0s, .3s;
+    -webkit-animation-timing-function: ease-out, ease-in-out;
+    animation-timing-function: ease-out, ease-in-out;
+    -webkit-animation-iteration-count: 1, infinite;
+    animation-iteration-count: 1, infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: normal, alternate;
+    animation-direction: normal, alternate;
+}
+
+/* Float Shadow */
+#serviço {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+#serviço:before {
+    pointer-events: none;
+    position: absolute;
+    z-index: -1;
+    content: '';
+    top: 100%;
+    left: 5%;
+    height: 10px;
+    width: 90%;
+    opacity: 0;
+    background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+    /* W3C */
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform, opacity;
+    transition-property: transform, opacity;
+}
+
+#serviço:hover,
+#serviço:focus,
+#serviço:active {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+    /* move the element up by 5px */
+}
+
+#serviço:hover:before,
+#serviço:focus:before,
+#serviço:active:before {
+    opacity: 1;
+    -webkit-transform: translateY(3px);
+    transform: translateY(3px);
+}
+
+/*Banner*/
+#row-banner {
+    margin: 20px 0;
+}
+
+.container .row .col-7 {
+    display: flex;
+    flex-direction: column;
+}
+
+#col-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner-serviços {
+    width: 70%;
+}
+
+#título-banner {
+    color: #003433;
+    text-align: left;
+    font-weight: 800;
+    font-size: 29px;
+    line-height: 35px;
+    margin-top: 40px;
+}
+
+#texto-banner {
+    color: #8ec044;
+    font-size: 15px;
+}
+
+/*Footer*/
+
+#contactos {
+    background-color: #ededed;
+    color: #003433;
+    margin: 0;
+    padding-bottom: 90px;
+}
+
+#col-footer,
+#col-footer1,
+#col-footer2,
+#col-morada {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#col-footer,
+#col-footer1,
+#col-footer2 b {
+    color: #003433;
+    font-size: 9px;
+    text-align: left;
+    margin: 0;
+}
+
+#col-footer,
+#col-footer1,
+#col-footer2 p {
+    color: #808080;
+    font-size: 13px;
+    margin: 0;
+    font-weight: 400;
+}
+
+#col-footer,
+#col-footer1,
+#col-footer2 i {
+    color: #808080;
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+#col-footer,
+#col-footer1,
+#col-footer2 a {
+    text-decoration: none;
+}
+
+#contactos-container {
+    display: flex;
+    row-gap: 10px;
+    margin-top: 45px;
+}
+
+#row-contactos {
+    margin-bottom: 30px;
+}
+
+#logo-vert {
+    width: 87%;
+    padding-right: 160px;
+}
+
+#link-termos {
+    font-size: 10px;
+}
+
+.row #custo {
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+#logo-redes1,
+#logo-redes2 {
+    width: 100px;
+    margin: 10px 10px 10px 0;
+}
+
+.btn2 {
+    background-color: #8ec044;
+    border-radius: 6px;
+    font-family: Montserrat;
+    color: white;
+    font-size: 10px;
+    font-weight: 800;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 2%;
+}
+
+#img-fina {
+    width: 110%;
+}
+
+/*RESPONSIVE*/
+
+@media screen and (max-width: 1400px) {
+
+    /*Header 2*/
+    #logo {
+        height: 75px;
+    }
+
+    #menu {
+        gap: 2rem;
+    }
+
+    /*Vídeo*/
+    .content {
+        left: 12%;
+    }
+
+    /*Texto Loja*/
+    #texto-loja {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    #p-loja {
+        font-size: 14px;
+    }
+
+    /*Serviços*/
+    #row-serviços {
+        gap: 10px;
+    }
+
+    #background-serviços {
+        width: 1120px;
+    }
+
+    /*Banner*/
+    #título-banner {
+        font-size: 25px;
+        line-height: 30px;
+        margin-top: 35px;
+    }
+
+    /*Footer*/
+    #logo-vert {
+        padding-right: 115px;
+    }
+
+    #link-termos {
+        font-size: 9px;
+    }
+
+    .col-6 {
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    body {
+        padding-top: 10%;
+    }
+
+    /*Header*/
+    #btn-mobile {
+        display: flex;
+        align-items: center;
+        justify-items: right;
+        padding: .5rem 1rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+        border: none;
+        background: none;
+        color: #003433;
+        cursor: pointer;
+        gap: .5rem;
+    }
+
+    #btn-mobile i {
+        font-size: 1.5rem;
+        color: #003433;
+    }
+
+    #xmark {
+        display: none;
+    }
+
+    #nav.active #xmark {
+        display: flex;
+    }
+
+    #nav.active #bars {
+        display: none;
+    }
+
+    #menu {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 100%;
+        right: 0px;
+        background-color: #003433;
+        height: 0px;
+        z-index: 1000;
+        transition: .6s;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+
+    #menu a {
+        padding: 1rem 0;
+    }
+
+    #menu p {
+        color: white;
+        font-size: 20px;
+    }
+
+    #nav.active #menu {
+        height: 100vh;
+        visibility: visible;
+    }
+
+    /*Vídeo*/
+    .content {
+        left: 11%;
+        width: 60%;
+    }
+
+    /*Texto Loja*/
+    #aloja {
+        padding: 8% 0;
+    }
+
+    #texto-loja {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .linha-loja {
+        border: 3px solid #8ec044;
+        width: 50px;
+        margin: 15px -6%;
+    }
+
+    #p-loja {
+        font-size: 11px;
+        line-height: auto;
+    }
+
+    /*Serviços*/
+    #título-serviços {
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    #texto-serviços {
+        font-size: 10px;
+    }
+
+    .icon-background {
+        width: 180px;
+        height: 150px;
+    }
+
+    .serviço .icon-background img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .icon-body {
+        width: 180px;
+        height: 80px;
+    }
+
+    .icon-body p {
+        padding: 9%;
+        font-size: 8px;
+    }
+
+    #serviços {
+        background-size: 100% 770px;
+        height: 770px;
+        padding-top: 7%;
+    }
+
+    /*Banner*/
+    #row-banner {
+        margin: 10px 0;
+    }
+
+    #título-banner {
+        font-size: 21px;
+        line-height: 25px;
+        margin-top: 30px;
+    }
+
+    /*Footer*/
+    #contactos {
+        padding: 0 0 4%;
+    }
+
+    #col-footer,
+    #col-footer1,
+    #col-footer2 b {
+        font-size: 7px;
+    }
+
+    #col-footer,
+    #col-footer1,
+    #col-footer2 p {
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    #col-footer2 i {
+        font-size: 8px;
+    }
+
+    #contactos-container {
+        row-gap: 5px;
+        margin-top: 35px;
+    }
+
+    #row-contactos {
+        margin-bottom: 20px;
+    }
+
+    #logo-vert {
+        padding-right: 35px;
+    }
+
+    #link-termos {
+        font-size: 8px;
+    }
+
+    #logo-redes1,
+    #logo-redes2 {
+        width: 70px;
+    }
+
+    #col-footer i {
+        font-size: 7px;
+        margin-top: 3px;
+    }
+
+    .row #custo {
+        font-size: 8px;
+        margin-top: 10px;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    #img-fina {
+        width: 120%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    /*Header 1*/
+    #texto-header-1 {
+        font-size: 7px;
+    }
+
+    #row-header .col img {
+        padding: 1%;
+    }
+
+    /*Header 2*/
+    #menu-mobile {
+        justify-content: center;
+    }
+
+    #logo {
+        height: 55px;
+        padding: 4% 0;
+    }
+
+    #btn-mobile i {
+        font-size: 1rem;
+    }
+
+    /*Video*/
+    .content {
+        left: 13%;
+    }
+
+    #texto-acoopar {
+        font-size: 30px;
+    }
+
+    #p-acoopar {
+        font-size: 12px;
+    }
+
+    .content .texto-video .btn {
+        font-size: 10px;
+        padding: 8px 15px;
+    }
+
+    /*Texto Loja*/
+    #texto-loja {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .linha-loja {
+        border: 2.5px solid #8ec044;
+        width: 50px;
+        margin: 10px -7%;
+    }
+
+    #p-loja {
+        font-size: 9px;
+    }
+
+    /*Serviços*/
+    #título-serviços {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    #texto-serviços {
+        font-size: 8px;
+    }
+
+    .linha-serviços {
+        border: 3px solid white;
+        width: 60px;
+    }
+
+    #texto-serviços {
+        font-size: 9px;
+    }
+
+    #texto-serviços p {
+        margin-bottom: 0.5rem;
+    }
+
+    .icon-background {
+        width: 130px;
+        height: 140px;
+    }
+
+    .serviço .icon-background img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .icon-body {
+        width: 130px;
+        height: 80px;
+    }
+
+    .icon-body p {
+        font-size: 7px;
+    }
+
+    #serviços {
+        background-size: 100% 700px;
+        height: 700px;
+        padding-top: 8%;
+    }
+
+    /*Banner*/
+    #row-banner {
+        margin: 0;
+    }
+
+    #título-banner {
+        font-size: 15px;
+        line-height: 18px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    #texto-banner {
+        font-size: 10px;
+    }
+
+    /*Footer*/
+    #footer-container {
+        margin-left: 7%;
+    }
+
+    #footer-container .col-1 {
+        display: none;
+    }
+
+    #col-footer1 {
+        width: 40%;
+    }
+
+    #col-footer2 {
+        width: 60%;
+    }
+
+    #col-footer,
+    #col-footer1,
+    #col-footer2 b {
+        font-size: 8px;
+    }
+
+    #col-footer,
+    #col-footer1,
+    #col-footer2 p {
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    #contactos-container {
+        margin-top: 40px;
+    }
+
+    #row-contactos {
+        margin-bottom: 15px;
+    }
+
+    #logo-vert {
+        padding-right: 25px;
+    }
+
+    #link-termos {
+        font-size: 7px;
+    }
+
+    #logo-redes1,
+    #logo-redes2 {
+        width: 80px;
+        margin: 5px 10px 10px 0;
+    }
+
+    #col-footer2 i {
+        font-size: 7px;
+        margin-top: 0;
+    }
+
+    .col-6 {
+        width: 57%;
+    }
+
+    .row #custo {
+        font-size: 8px;
+        margin-top: 10px;
+    }
+
+    #img-fina {
+        width: 100%;
+    }
+
+    #contactos {
+        padding: 0 0 6%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    body {
+        padding-top: 18%;
+    }
+
+    .col-1 {
+        display: none;
+    }
+
+    /*Header 1*/
+    #texto-header-1 {
+        font-size: 6.20px;
+    }
+
+    #header-face {
+        margin-right: -87%;
+    }
+
+    #header-insta {
+        margin-left: 70%;
+    }
+
+    /*Header 2*/
+    #logo {
+        height: 50px;
+        margin-left: -8%;
+    }
+
+    #btn-mobile {
+        margin-left: 135%;
+    }
+
+    /*Vídeo*/
+    .content {
+        left: 5%;
+        width: 80%;
+    }
+
+    .content .texto-video .btn {
+        font-size: 8px;
+    }
+
+    /*Texto Loja*/
+    #aloja {
+        padding-top: 10%;
+    }
+
+    #loja-img {
+        width: 110%;
+    }
+
+    #texto-loja {
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    .linha-loja {
+        border: 2.5px solid #8ec044;
+        width: 35px;
+        margin: 10px -7%;
+    }
+
+    #p-loja {
+        font-size: 7.5px;
+        line-height: auto;
+    }
+
+    /*Serviços*/
+    #título-serviços {
+        margin-left: 12%;
+    }
+
+    .linha-serviços {
+        border: 3px solid white;
+        width: 50px;
+        margin: 15px -10px;
+    }
+
+    #texto-serviços {
+        font-size: 8px;
+    }
+
+    .icon-background {
+        width: 110px;
+        height: 130px;
+    }
+
+    .serviço .icon-background img {
+        height: 90px;
+        width: 90px;
+    }
+
+    .icon-body {
+        width: 110px;
+        height: 70px;
+    }
+
+    .icon-body p {
+        font-size: 6px;
+    }
+
+    #serviços {
+        background-size: 100% 650px;
+        height: 650px;
+        padding-top: 11%;
+    }
+
+    /*Banner*/
+    #row-banner {
+        margin-left: 40px;
+    }
+
+    #título-banner {
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 4px;
+    }
+
+    #banner-serviços {
+        width: 100%;
+    }
+
+    .col-7 {
+        width: 65%;
+    }
+
+    /*Footer*/
+    #contactos .container {
+        max-width: 100%;
+    }
+
+    #footer-container {
+        margin-left: 1%;
+    }
+
+    #footer-container .col-1 {
+        display: none;
+    }
+
+    #col-footer1 {
+        width: 40%;
+    }
+
+    #col-footer2 {
+        width: 60%;
+    }
+
+    #col-morada {
+        width: 100%;
+    }
+
+    #col-footer,
+    #col-footer1,
+    #col-footer2 b {
+        font-size: 7px;
+    }
+
+    #col-footer,
+    #col-footer1,
+    #col-footer2 p {
+        font-size: 9px;
+    }
+
+    #contactos-container {
+        margin-top: 50px;
+    }
+
+    #row-contactos {
+        margin-bottom: 15px;
+    }
+
+    #logo-vert {
+        padding-right: 0;
+        width: 89%;
+    }
+
+    #link-termos {
+        font-size: 7px;
+    }
+
+    #logo-redes1,
+    #logo-redes2 {
+        width: 75px;
+        margin: 5px 5px 10px 0;
+    }
+
+    #col-footer2 i {
+        font-size: 7px;
+    }
+
+    .col-6 {
+        width: 57%;
+    }
+
+    .row #custo {
+        font-size: 7px;
+    }
+
+    #img-fina {
+        width: 100%;
+    }
+
+    #contactos {
+        padding: 0 0 9%;
+    }
+}
+
+/* Mobile Version */
+
+@media only screen and (max-width: 600px) {
+    body {
+        padding-top: 20%;
+    }
+
+    .col-1 {
+        display: block;
+    }
+
+
+    /*Header 1*/
+    #row-header img {
+        height: 24px !important;
+    }
+
+    #texto-header-1 {
+        font-size: 5px;
+    }
+
+    #header-face {
+        margin-right: -50%;
+    }
+
+    #header-insta {
+        margin-left: 22%;
+    }
+
+    /*Header 2*/
+    #header2-logo {
+        display: flex;
+        align-items: center;
+    }
+
+    #logo {
+        height: 50px;
+        padding: 3% 0;
+        margin-left: -4%;
+    }
+
+    #btn-mobile {
+        margin-left: 18%;
+    }
+
+    /*Vídeo*/
+    video {
+        width: 200%;
+    }
+
+    .content {
+        left: 7%;
+        width: 80%;
+    }
+
+    #texto-acoopar {
+        font-size: 35px;
+    }
+
+    #p-acoopar {
+        font-size: 14px;
+    }
+
+    .content .texto-video .btn {
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+
+    .btn:hover {
+        background-color: #8ec044;
+    }
+
+    /*Texto Loja*/
+    #aloja {
+        width: 100%;
+        padding-top: 12%;
+    }
+
+    .col-6 {
+        width: 100%;
+    }
+
+    #col-loja {
+        width: 90%;
+        margin: 0 5% 0;
+    }
+
+    #texto-loja {
+        font-size: 25px;
+        line-height: 25px;
+        margin: 0 0 2% 5%;
+    }
+
+    .linha-loja {
+        border: 3px solid #8ec044;
+        width: 45px;
+        margin: 0 0 3% 0;
+    }
+
+    #p-loja {
+        font-size: 12px;
+        margin: 0 0 2% 5%;
+    }
+
+    /*Serviços*/
+    #serviços {
+        display: block;
+        width: 100%;
+        background-size: 100% 104rem;
+        height: 104rem;
+        padding-top: 20%;
+    }
+
+    #background-serviços {
+        width: 100%;
+    }
+
+    #row-mobile-serviços {
+        padding-top: 0 !important;
+    }
+
+    #col-serviços {
+        width: 100%;
+        padding-top: 3%;
+
+    }
+
+    #título-serviços {
+        font-size: 25px;
+        line-height: 25px;
+        margin-left: 10%;
+    }
+
+    .linha-serviços {
+        border: 3px solid white;
+        width: 45px;
+        margin: 0 5% 3%;
+    }
+
+    #texto-serviços {
+        font-size: 13px;
+        margin: 0 10%;
+        width: 89% !important;
+    }
+
+    #row-serviços {
+        gap: 15px;
+    }
+
+    #serviço {
+        margin-left: 3%;
+    }
+
+    .icon-background {
+        width: 150px;
+        height: 170px;
+    }
+
+    .serviço .icon-background img {
+        height: 110px;
+        padding: 0;
+    }
+
+    .icon-body {
+        width: 150px;
+        height: 100px;
+    }
+
+    .icon-body p {
+        font-size: 10px;
+    }
+
+    /*Banner*/
+    #col-banner {
+        width: 95%;
+    }
+
+    #banner-serviços {
+        width: 90%;
+    }
+
+    .col-7 {
+        width: 100%;
+    }
+
+    #título-banner {
+        font-size: 23px;
+        line-height: 30px;
+        margin: 20px 0 20px 0%;
+    }
+
+    #texto-banner {
+        font-size: 18px;
+        margin-left: 0;
+    }
+
+    /*Footer*/
+    #row-contactos {
+        width: 120%;
+    }
+
+    #contactos {
+        padding: 19% 0 20% 0;
+    }
+
+    #col-footer1,
+    #col-footer2 {
+        width: 90%;
+    }
+
+    #col-footer {
+        padding: 0 0 24% 0;
+    }
+
+    #col-footer,
+    #col-footer1,
+    #col-footer2 b {
+        font-size: 8px;
+        text-align: center;
+    }
+
+    #col-footer,
+    #col-footer1,
+    #col-footer2 p {
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    #col-morada {
+        justify-content: center;
+        text-align: center;
+        padding-top: 12%;
+    }
+
+    .col-8 {
+        width: 100%;
+    }
+
+    #contactos-container {
+        margin-top: 10px;
+    }
+
+    #row-contactos {
+        margin-bottom: 10px;
+    }
+
+    #logo-vert {
+        width: 70%;
+        padding: 15px 20px 10px 0;
+    }
+
+    #col-footer1 p {
+        font-size: 10px;
+        margin-left: 5px;
+        text-align: left;
+    }
+
+    #row-contactos-redes {
+        position: absolute;
+        width: 90%;
+    }
+
+    #col-footer-redes {
+        display: flex;
+        justify-content: space-around;
+        width: 100% !important;
+    }
+
+    .row #custo {
+        font-size: 8px;
+        margin-top: 10px;
+    }
+
+    #logo-redes1,
+    #logo-redes2 {
+        width: 100px;
+        margin: 0;
+    }
+
+    #col-footer-redes i {
+        font-size: 6px;
+        position: absolute;
+        margin: 85% 0 0 -85%;
+    }
+
+    #img-fina {
+        width: 235%;
+        margin: 100% 0 0;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    body {
+        padding-top: 21%;
+    }
+
+    /*Header 1*/
+    #texto-header-1 {
+        font-size: 5px;
+    }
+
+    #coluna {
+        display: flex;
+        align-items: center;
+        width: 30%;
+    }
+
+    #header-face {
+        margin-right: -10%;
+    }
+
+    #header-insta {
+        margin-left: -45%;
+    }
+
+    /*Header 2*/
+    #logo {
+        height: 37px;
+        padding: 2% 0;
+    }
+
+    #btn-mobile {
+        margin-left: 10%;
+        font-size: 1.2rem;
+    }
+
+    /*Vídeo*/
+    .content {
+        left: 8%;
+    }
+
+    #p-acoopar {
+        font-size: 8px;
+    }
+
+    /*Texto Loja*/
+    #col-loja {
+        margin: 0 5% 0;
+    }
+
+    #texto-loja {
+        margin: 0 0 2% 0;
+    }
+
+    .linha-loja {
+        margin: 0 -6% 3%;
+    }
+
+    #p-loja {
+        margin: 0 0 2% 0;
+    }
+
+    /*Serviços*/
+    #título-serviços {
+        margin-left: 6%;
+    }
+
+    .linha-serviços {
+        margin: 0 0 3%;
+    }
+
+    #texto-serviços {
+        margin: 0 7%;
+    }
+
+    #row-serviços {
+        gap: 0;
+        margin-left: -8%;
+    }
+
+    #serviço {
+        margin-left: 5%;
+    }
+
+    /*Banner*/
+    #row-banner {
+        margin-left: 10px;
+    }
+
+    #título-banner {
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    #texto-banner {
+        font-size: 19px;
+        margin-left: 0;
+    }
+
+    /*Footer*/
+    #logo-vert {
+        width: 78%;
+        margin-left: 1%;
+    }
+
+    #col-footer,
+    #col-footer1,
+    #col-footer2 b {
+        font-size: 8px;
+        text-align: center;
+    }
+
+    #col-footer,
+    #col-footer1,
+    #col-footer2 p {
+        font-size: 10px;
+    }
+
+    #col-footer1 p {
+        margin-left: 1%;
+    }
+
+    #col-footer-redes {
+        width: 90% !important;
+    }
+
+    #logo-redes1,
+    #logo-redes2 {
+        width: 85px;
+        margin: 2px 0 5px 44px;
+    }
+
+    #col-footer2 {
+        margin-left: -1%;
+    }
+
+    #col-footer2 i {
+        margin: 85% 0 0 -75%;
+    }
+}
+
+@media only screen and (max-width: 372px) {
+
+    body {
+        padding-top: 53%;
+        width: 138%;
+    }
+
+    /*Header 1*/
+    .col-1 {
+        display: none;
+    }
+
+    #coluna {
+        margin-left: 3%;
+    }
+
+    #row-header img {
+        height: 17px !important;
+    }
+
+    #texto-header-1 {
+        font-size: 4.5px;
+    }
+
+    #header-face {
+        margin-right: -35% !important;
+    }
+
+    #header-insta {
+        margin-left: -30%;
+    }
+
+    /*Header 2*/
+    #header2-logo {
+        display: flex;
+        align-items: center;
+    }
+
+    #logo {
+        height: 30px;
+        margin-left: 0;
+    }
+
+    #menu-mobile {
+        margin-left: 16%;
+    }
+
+    #btn-mobile {
+        font-size: 0.9rem;
+    }
+
+    /*Vídeo*/
+    .content {
+        left: 6%;
+    }
+
+    #p-acoopar {
+        font-size: 10px;
+    }
+
+    /*Texto Loja*/
+    #p-loja {
+        font-size: 9px;
+    }
+
+    /*Serviços*/
+    #serviços {
+        background-size: 100% 83rem;
+        height: 83rem;
+    }
+
+    #texto-serviços {
+        font-size: 12px;
+        margin: 0 7%;
+    }
+
+    .icon-body p {
+        font-size: 7px;
+    }
+
+    #serviço {
+        margin-left: 5%;
+    }
+
+    .icon-background {
+        width: 100px;
+        height: 120px;
+    }
+
+    .serviço .icon-background img {
+        height: 80px;
+    }
+
+    .icon-body {
+        width: 100px;
+        height: 80px;
+    }
+
+    /*Banner*/
+    #título-banner {
+        font-size: 15px;
+        line-height: 17px;
+        margin: 15px 0 15px 0px;
+    }
+
+    #texto-banner {
+        font-size: 11px;
+    }
+
+    /*Footer*/
+    #contactos {
+        padding: 20% 0 40% 0;
+    }
+
+    #logo-vert {
+        width: 85%;
+        margin-left: 0;
+    }
+
+    #col-footer,
+    #col-footer1,
+    #col-footer2 b {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    #col-footer,
+    #col-footer1,
+    #col-footer2 p {
+        font-size: 15px;
+    }
+
+    #col-morada {
+        margin-left: 8%;
+    }
+
+    #col-footer {
+        width: 100%;
+        display: block;
+        margin-left: 8%;
+        padding: 0 0 5% 0;
+    }
+
+    #col-footer2 {
+        margin-left: -7%;
+    }
+
+    #col-footer2 i {
+        margin: 250% 0 0 -35%;
+    }
+
+    #col-footer1 p {
+        text-align: left;
+        margin-left: 0;
+        font-size: 7px;
+    }
+
+    #logo-redes1 {
+        margin-left: 30%;
+    }
+
+    #logo-redes2 {
+        margin-left: 95%;
+    }
+
+    #img-fina {
+        width: 117%;
+        margin: 185% 10px 0;
+    }
+
+    .row #custo {
+        position: absolute;
+        margin: 90% 0 0 32%;
+    }
+}
+
+/* <600px, 601px, 768px, 992px, 1200px */

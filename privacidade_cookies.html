@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coopar</title>
+    <!--Font Montserrat-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;700&display=swap" rel="stylesheet">
+    <!--Link Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <!--Link Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" data-purpose="Layout StyleSheet" title="Web Awesome"
+        href="/css/app-wa-02670e9412103b5852dcbe140d278c49.css?vsn=d">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-light.css">
+    <!--Link CSS-->
+    <link rel="stylesheet" href="/projeto css/index.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Coopar</title>
+    <!--Cookies-->
+    <style>
+        .cookieConsentContainer {
+            z-index: 999;
+            width: 350px;
+            min-height: 20px;
+            box-sizing: border-box;
+            padding: 30px 30px 30px 30px;
+            background: #232323;
+            overflow: hidden;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            display: none
+        }
+
+        .cookieConsentContainer .cookieTitle a {
+            font-family: Monteserrat;
+            color: #fff;
+            font-size: 22px;
+            line-height: 20px;
+            display: block
+        }
+
+        .cookieConsentContainer .cookieDesc p {
+            margin: 0;
+            padding: 0;
+            font-family: Monteserrat;
+            color: #fff;
+            font-size: 14px;
+            line-height: 20px;
+            display: block;
+            margin-top: 10px
+        }
+
+        .cookieConsentContainer .cookieDesc a {
+            font-family: Monteserrat;
+            color: #fff;
+            text-decoration: underline
+        }
+
+        .cookieConsentContainer .cookieButton a {
+            display: inline-block;
+            font-family: Monteserrat;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 700;
+            margin-top: 14px;
+            background: #000;
+            box-sizing: border-box;
+            padding: 15px 24px;
+            text-align: center;
+            transition: background .3s
+        }
+
+        .cookieConsentContainer .cookieButton a:hover {
+            cursor: pointer;
+            background: #8ec044
+        }
+
+        @media (max-width:980px) {
+            .cookieConsentContainer {
+                bottom: 0 !important;
+                left: 0 !important;
+                width: 100% !important
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="fixed-top">
+        <!--Header 1-->
+        <div class="container">
+            <div id="row-header" class="row">
+                <div class="col-1"></div>
+                <div id="coluna" class="col-2 justify-content-center">
+                    <img style="height: 30px;" src="/img/icone_telefone.svg" alt="">
+                    <p id="texto-header-1"><a style="text-decoration: none;" href="tel:+351 926 931 125">tlf: +351 266
+                            499 115*</a><br> TELEFONE</p>
+                </div>
+                <div id="coluna" class="col-2 justify-content-start">
+                    <img style="height: 30px;" src="/img/icone_email.svg" alt="">
+                    <p id="texto-header-1"><a style="text-decoration: none;"
+                            href="mailto:info@coopar.pt">info@coopar.pt</a><br>E-Mail</p>
+                </div>
+                <div style="justify-content: right;" class="col">
+                    <div id="header-face" class="background-rede">
+                        <a href="https://www.facebook.com/coopar.arraiolos"><i class="fa-brands fa-facebook-f"></i></a>
+                    </div>
+                </div>
+                <div style="justify-content: left;" class="col">
+                    <div id="header-insta" class="background-rede">
+                        <a href="https://www.instagram.com/coopararraiolos"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Header 2-->
+        <section class="header-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div id="header2-logo" class="col-5">
+                        <a href="http://127.0.0.1:5500/projeto%20html/index.html"><img id="logo"
+                                src="/img/Logo_COOPAR_horizontal.svg" alt=""></a>
+                    </div>
+                    <div class="col-1"></div>
+                    <div id="menu-mobile" style="display: flex; align-items: center; justify-content: center;"
+                        class="col-5">
+                        <nav id="nav">
+                            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
+                                aria-expanded="false">Menu
+                                <i id="bars" class="fa-solid fa-bars"></i>
+                                <i id="xmark" class="fa-solid fa-xmark"></i>
+                            </button>
+                            <ul id="menu" role="menu">
+                                <li><a onclick="removeActive()" class="col" href="#acoopar">
+                                        <p>A COOPAR</p>
+                                    </a></li>
+                                <li><a onclick="removeActive()" class="col" href="#aloja">
+                                        <p>A LOJA</p>
+                                    </a></li>
+                                <li><a onclick="removeActive()" class="col" href="#serviços">
+                                        <p>SERVIÇOS</p>
+                                    </a></li>
+                                <li><a onclick="removeActive()" class="col" href="#contactos">
+                                        <p>CONTACTOS</p>
+                                    </a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <section>
+        <div class="container">
+            <br>
+            <br>
+ 
+            <p style="color: #003433;">
+            <h1 style="font-family: Montserrat; font-size: 50px; font-weight: bold; color: #003433;">Política de Cookies
+            </h1>
+            <br>
+            <br>
+            Utilizamos cookies para melhorar o desempenho e a sua experiência como utilizador no nosso site.<br>
+
+            <h2 style="font-family: Montserrat; font-size: 25px; font-weight: bold; color: #003433; margin: 25px 0 0 0;">
+                O que são Cookies?</h2><br>
+            As Cookies são pequenos ficheiros de texto que um site, quando visitado, coloca no computador do utilizador
+            ou no seu dispositivo móvel, através do navegador de internet (browser). A colocação de Cookies ajudará o
+            site a reconhecer o seu dispositivo numa próxima visita. Usamos o termo cookies nesta política para referir
+            todos os ficheiros que recolhem informações desta forma.<br>
+            As cookies utilizadas não recolhem informação que pode utilizada para o identificar ou contactar, tais como
+            o seu nome, endereço de correio eletrónico, endereços pessoais ou profissionais ou número de telefone. No
+            entanto, se já for nosso cliente e tiver autorizado a utilização dos seus dados pessoais para efeitos de
+            Marketing, poderemos registar as suas visitas ao site caso tenha acedido ao mesmo através de comunicação
+            enviada por nós (e-mail ou SMS por exemplo).<br>
+            As cookies recolhem também informações genéricas, designadamente a forma como os utilizadores chegam e
+            utilizam os sites ou a zona do país/países através do qual acedem ao site, etc.<br>
+            As cookies retêm apenas informação relacionada com as suas preferências.<br>
+            A qualquer momento o utilizador pode, através do seu navegador de internet (browser) decidir ser notificado
+            sobre a receção de cookies, bem como bloquear a respetiva entrada no seu sistema.<br>
+            A recusa de uso de cookies no site, pode resultar na impossibilidade de ter acesso a algumas das suas áreas
+            ou de receber informação personalizada.<br>
+
+            <h2 style="font-family: Montserrat; font-size: 25px; font-weight: bold; color: #003433; margin: 25px 0 0 0;">
+                Para que servem as Cookies?</h2><br>
+            As cookies são utilizadas para ajudar a determinar a utilidade, interesse e o número de utilizações dos
+            sites, permitindo uma navegação mais rápida e eficiente e eliminando a necessidade de introduzir
+            repetidamente as mesmas informações.<br>
+            <h2 style="font-family: Montserrat; font-size: 25px; font-weight: bold; color: #003433; margin: 25px 0 0 0;">
+                Que tipo de Cookies utilizamos?</h2><br>
+            As nossas cookies têm diferentes funções:<br>
+            Cookies essenciais – Algumas cookies são essenciais para aceder a áreas específicas do nosso site. Permitem
+            a navegação no site e a utilização das suas aplicações, tal como aceder a áreas seguras do site através de
+            login. Sem estas cookies, os serviços que o exijam não podem ser prestados.<br>
+            Cookies analíticas – Utilizamos estas cookies para analisar a forma como os utilizadores usam o site e
+            monitorar a performance deste. Isto permite-nos fornecer uma experiência de alta qualidade ao personalizar a
+            nossa oferta e rapidamente identificar e corrigir quaisquer problemas que surjam. Por exemplo, usamos
+            cookies de desempenho para saber quais as páginas mais populares, qual o método de ligação entre páginas que
+            é mais eficaz, ou para determinar a razão de algumas páginas estarem a receber mensagens de erro. Baseado na
+            utilização do site, podemos também utilizar estes cookies para destacar artigos ou serviços do site que
+            pensamos ser do interesse dos utilizadores. Estas cookies são utilizados apenas para efeitos de criação e
+            análise estatística, sem nunca recolher informação de caráter pessoal.<br>
+            Cookies de funcionalidade – Utilizamos cookies de funcionalidade para nos permitir relembrar as preferências
+            do utilizador. Por exemplo, os cookies evitam digitar o nome do utilizador cada vez que este acede ao site.
+            Também usamos cookies de funcionalidade para fornecer serviços avançados ao utilizador, como por exemplo
+            efetuar comentários a um artigo. Em resumo, os cookies de funcionalidade guardam as preferências do
+            utilizador relativamente à utilização do site, de forma que não seja necessário voltar a configurar o site
+            cada vez que o visita.<br>
+            Cookies de terceiros – Servem para medir o sucesso de aplicações e a eficácia da publicidade de terceiros no
+            nosso site.<br>
+            Cookies de publicidade – Servem para direcionar a publicidade em função dos interesses de cada utilizador e
+            do número de visitas que realizou, permitindo limitar o número de vezes do visionamento do anúncio. Estes
+            cookies ajudam a medir a eficácia da publicidade.<br>
+            <h2 style="font-family: Montserrat; font-size: 25px; font-weight: bold; color: #003433; margin: 25px 0 0 0;">
+                As Cookies utilizadas podem ser:</h2><br>
+            Cookies permanentes – Ficam armazenadas ao nível do navegador de internet (browser) nos seus dispositivos de
+            acesso (pc, mobile e tablet) e são utilizadas sempre que o utilizador faz uma nova visita ao site.
+            Geralmente são utilizadas para direcionar a navegação de acordo com os interesses do utilizador,
+            permitindo-nos prestar um serviço mais personalizado.<br>
+            Cookies de sessão – São temporárias, permanecem nas cookies do seu navegador de internet (browser) até sair
+            do site. A informação obtida permite identificar problemas e fornecer uma melhor experiência de
+            navegação.<br>
+            Depois de autorizar o uso de Cookies, o utilizador pode sempre desativar parte ou a totalidade das nossas
+            cookies.<br>
+            Todos os browsers permitem ao utilizador aceitar, recusar ou apagar cookies, nomeadamente através da seleção
+            das definições apropriadas no respetivo navegador. Pode configurar as Cookies no menu “opções” ou
+            “preferências” do seu browser.<br>
+            Note-se, no entanto, que, ao desativar as cookies, pode impedir que alguns serviços da web funcionem
+            corretamente, afetando, parcial ou totalmente, a navegação no website.<br>
+            Recordamos que ao desativar as cookies, partes do nosso site podem não funcionar corretamente.<br>
+            Mais informação sobre cookies em: <a href="www.allaboutcookies.org">www.allaboutcookies.org</a>
+            </p>
+        </div>
+        <br>
+    </section>
+
+    <section>
+        <div class="container">
+            <p style="color: #003433;">
+            <h1 style="font-family: Montserrat; font-size: 50px; font-weight: bold; color: #003433;">Política de Privacidade</h1>
+            <br>
+            <br>
+            Seja bem-vindo ao website <a href="https://www.coopar.pt"><b>https://www.coopar.pt</b></a><br>
+
+            No cumprimento da Lei n.º 67/98 de 26 de Outubro, sobre a Proteção de Dados Pessoais,informamos que o
+            tratamento dos dados pessoais recolhidos no site <a href="https://www.coopar.pt"><b>https://www.coopar.pt</b></a> é da responsabilidade de
+            Coopar-Cooperativa Agrícola de Compra e Venda do Concelho de Arraiolos.<br>
+            Sempre que introduza dados pessoais na nossa página será informado sobre qual a informação que é necessária
+            e qual é facultativa. Apenas recolhemos informação pessoal dos utilizadores registados e subscritores,
+            permitindo assim que os visitantes naveguem anonimamente. Utilizamos os dados pessoais concedidos pelos
+            utilizadores apenas para efeitos de respostas a eventuais pedidos de informação ou produto e marketing
+            direto.<br>
+            No nosso website não dispomos de qualquer campo ou formulário que recolha informações ou dados pessoais.<br>
+            Informamos que o seu browser transmite de forma automática algumas informações, nomeadamente o URL do
+            website de onde entrou, o seu IP (Internet Protocol) e também a versão do browser que está atualmente a usar
+            no seu computador.<br>
+            A utilização de cookies é controlada pelo utilizador através do browser. Os cookies serão utilizados apenas
+            para contabilizar o número de visitas ao Website e não identificam o cliente, nem guardam nem recolhem
+            informação do cliente. Todos os utilizadores que naveguem no nosso site aceitam à partida a utilização de
+            cookies.<br>
+            A Coopar-Cooperativa Agrícola de Compra e Venda do Concelho de Arraiolos pode utilizar esta
+            informação apenas para melhorar o conteúdo do website, e adaptá-lo às suas preferências.<br>
+            <h2 style="font-family: Montserrat; font-size: 25px; font-weight: bold; color: #003433; margin: 25px 0 0 0;">Partilha da informação com terceiros</h2><br>
+            Não vendemos nem partilhamos as suas informações pessoais a terceiros para fins que não os indicados nesta
+            Política.<br>
+            Utilizamos o Google Analytics como ferramenta de análise da forma como os visitantes utilizam o nosso
+            website (ver “dados recolhidos quando navega no nosso website”), com o objetivo de melhorar a qualidade
+            deste serviço. O Google Analytics recolhe essas informações de forma anónima, ou seja, sem identificar os
+            visitantes individualmente.<br>
+            <h2 style="font-family: Montserrat; font-size: 25px; font-weight: bold; color: #003433; margin: 25px 0 0 0;">Acesso, Atualização e Eliminação dos seus dados</h2><br>
+            O nosso website não recolhe dados pessoais, no caso de nos fornecer o seu por livre vontade garantimos a sua
+            confidencialidade. Não obstante procedermos à recolha e ao tratamento de dados de forma segura e que impede
+            a sua perda ou manipulação, informamos que a recolha em rede aberta permite a circulação dos dados pessoais
+            sem condições de segurança, correndo o risco de ser vistos e utilizados por terceiros não autorizados.<br>
+            Todos os nossos clientes têm o direito de acesso, retificação, cancelamento e oposição dos seus dados. Caso
+            deseje deixar de fazer parte da base de dados da <b>Coopar-Cooperativa Agrícola de Compra e Venda do Concelho
+            de Arraiolos</b> poderá exercer este direito através dos seguintes meios:<br>
+            – Por email, através do endereço <a href="mailto:coopar.geral@gmail.com">coopar.geral@gmail.com</a><br>
+            – Por carta enviada para Rua Cunha Rivara nº7, 7040-033 Arraiolos<br>
+            No entanto, devemos informar caso aplicável, os seus dados não poderão ser eliminados do sistema<br> de
+            Faturação para efeitos Fiscais.<br>
+            <h2 style="font-family: Montserrat; font-size: 25px; font-weight: bold; color: #003433; margin: 25px 0 0 0;">Atualizações a esta Política</h2><br>
+            Podemos ocasionalmente atualizar esta Política. Se utilizar os nossos serviços após uma atualização, tal
+            significa que aceitou a política atualizada.<br>
+            Aconselhamo-lo a rever periodicamente esta Política para obter informação mais recente sobre as nossas
+            práticas de privacidade, pois poderemos alterá-la, com a eliminação ou alteração de conteúdos sem aviso
+            prévio, pelo que não garantimos que os seus conteúdos se encontrem sempre atualizados, ou sejam livres de
+            erros ou omissões.<br>
+            Não podemos ser responsabilizados por dificuldades de acesso à internet, nomeadamente caso não possua as
+            condições de acesso necessárias ou o nosso website não se encontre disponível em determinado momento.<br>
+            Não poderemos ser responsabilizados por danos causados por vírus ou outros materiais tecnologicamente
+            danosos que possam infetar o seu computador, dispositivos móveis, software ou outro material em resultado da
+            utilização do nosso website ou outros websites acedidos a partir do nosso.
+            </p>
+        </div>
+        <br>
+    </section>
+
+    <!--Footer-->
+    <footer id="contactos">
+        <div class="container">
+            <div id="footer-container" class="row">
+                <div class="col-1"></div>
+                <div id="col-footer1" class="col-5">
+                    <img id="logo-vert" src="/img/Logo_COOPAR_vertical.svg" alt="">
+                    <p style="text-decoration: underline;">
+                        <a id="link-termos"
+                            href="http://127.0.0.1:5500/projeto%20html/privacidade_cookies.html">Consulte a Política de
+                            Cookies
+                            e Política de Privacidade</a><br>
+                        <a id="link-termos" href="https://www.livroreclamacoes.pt/Inicio/">Livro de Reclamações</a>
+                    </p>
+                </div>
+                <div id="col-footer2" class="col-5">
+                    <div id="contactos-container" class="container">
+                        <div id="row-contactos" class="row">
+                            <div id="col-morada" class="col-8">
+                                <p><b>MORADA</b><br>Rua Cunha Rivara nº7, 7040-033 Arraiolos</p>
+                            </div>
+                            <div class="col-4"></div>
+                        </div>
+                        <div id="row-contactos" class="row">
+                            <div id="col-footer" class="col-4">
+                                <p><b>GERAL</b><br><a href="mailto:geral@coopar.pt">geral@coopar.pt</a><br>
+                                    <a href="tel:+351 926 931 125">tlf: +351 266 499 115*</a>
+                                </p>
+                                <p id="custo">*Custo de chamada local</p>
+                            </div>
+                            <div id="col-footer" class="col-4">
+                                <p><b>LOJA</b><br><a href="mailto:loja@coopar.pt">loja@coopar.pt</a><br>
+                                    <a href="tel:+351 926 931 125">tlf: +351 961 153 477*</a>
+                                </p>
+                            </div>
+                            <div id="col-footer" class="col-4">
+                                <p><b>ASSISTÊNCIA TÉCNICA</b><br><a
+                                        href="mailto:assistencia@coopar.pt">assistencia@coopar.pt</a><br>
+                                    <a href="tel:+351 926 931 125">tlf: +351 926 931 125*</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div id="row-contactos-redes" class="row align-items-start">
+                            <div id="col-footer-redes" class="col-6">
+                                <a href="https://www.facebook.com/coopar.arraiolos"><img id="logo-redes1" class="btn2"
+                                        src="/img/botao_facebook.svg" alt=""></a>
+                                <a href="https://www.instagram.com/coopararraiolos"><img id="logo-redes2" class="btn2"
+                                        src="/img/botao_instagram.svg" alt=""></a>
+                                <i class="fa-light fa-copyright"> COOPAR 2023</i>
+                            </div>
+                            <div id="col-footer" style="padding: 0;" class="col-5">
+                                <img id="img-fina" src="/img/Barra_financiamento.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1"></div>
+            </div>
+        </div>
+    </footer>
+    <script>var purecookieTitle = "Cookies.", purecookieDesc = "Este site utiliza cookies para te propocionar uma melhor experiência. Ao continuar a navegar, você aceita a nossa ", purecookieLink = '<a href="https://www.cssscript.com/privacy-policy/" target="_blank">Política de Cookies.</a>', purecookieButton = "Concordo"; function pureFadeIn(e, o) { var i = document.getElementById(e); i.style.opacity = 0, i.style.display = o || "block", function e() { var o = parseFloat(i.style.opacity); (o += .02) > 1 || (i.style.opacity = o, requestAnimationFrame(e)) }() } function pureFadeOut(e) { var o = document.getElementById(e); o.style.opacity = 1, function e() { (o.style.opacity -= .02) < 0 ? o.style.display = "none" : requestAnimationFrame(e) }() } function setCookie(e, o, i) { var t = ""; if (i) { var n = new Date; n.setTime(n.getTime() + 24 * i * 60 * 60 * 1e3), t = "; expires=" + n.toUTCString() } document.cookie = e + "=" + (o || "") + t + "; path=/" } function getCookie(e) { for (var o = e + "=", i = document.cookie.split(";"), t = 0; t < i.length; t++) { for (var n = i[t]; " " == n.charAt(0);)n = n.substring(1, n.length); if (0 == n.indexOf(o)) return n.substring(o.length, n.length) } return null } function eraseCookie(e) { document.cookie = e + "=; Max-Age=-99999999;" } function cookieConsent() { getCookie("purecookieDismiss") || (document.body.innerHTML += '<div class="cookieConsentContainer" id="cookieConsentContainer"><div class="cookieTitle"><a>' + purecookieTitle + '</a></div><div class="cookieDesc"><p>' + purecookieDesc + " " + purecookieLink + '</p></div><div class="cookieButton"><a onClick="purecookieDismiss();">' + purecookieButton + "</a></div></div>", pureFadeIn("cookieConsentContainer")) } function purecookieDismiss() { setCookie("purecookieDismiss", "1", 7), pureFadeOut("cookieConsentContainer") } window.onload = function () { cookieConsent() };</script>
+    <script src="/projeto js/index.js"></script>
+</body>
+
+</html>
