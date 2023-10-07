@@ -211,7 +211,7 @@ video {
 
 /*Serviços*/
 #serviços {
-    background-image: url(/img/Background-serviços.png);
+    background-image: url(../img/Background-serviços.png);
     background-size: 100% 1020px;
     height: 1020px;
     padding-top: 5%;
