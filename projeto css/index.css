@@ -10,6 +10,57 @@ section {
     overflow: hidden;
 }
 
+/*Pop Up*/
+#cookiePopup {
+    background: #003433;
+    width: 370px;
+    position: fixed;
+    float: right;
+    right: 10px;
+    bottom: 20px;
+    box-shadow: 0px 0px 15px #cccccc;
+    padding: 5px 10px;
+    font-family: "Montserrat" !important;
+    z-index: 2000;
+    display: none;
+}
+
+#cookietitle {
+    color: white;
+    font-size: 22px !important;
+    font-weight: bold;
+}
+
+#cookiePopup p {
+    text-align: left;
+    font-size: 15px;
+    color: white;
+}
+
+#cookiePopup button {
+    width: 40%;
+    border: none;
+    background: #8ec044;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+#cookiePopup button:hover {
+    background: #f7eecf;
+    color: #003433;
+    font-weight: bold;
+}
+
+@media (max-width:600px) {
+    #cookiePopup {
+        bottom: 0 !important;
+        right: 0 !important;
+        width: 100% !important
+    }
+}
+
 /* Header 1*/
 header {
     background-color: #003433;
