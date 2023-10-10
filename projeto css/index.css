@@ -802,6 +802,10 @@ video {
 @media screen and (max-width: 992px) {
 
     /*Header 1*/
+     #coluna {
+        width: 25%;
+    }
+    
     #texto-header-1 {
         font-size: 7px;
     }
@@ -1008,6 +1012,10 @@ video {
     }
 
     /*Header 1*/
+     #coluna {
+        width: 25%;
+    }
+    
     #texto-header-1 {
         font-size: 6.20px;
     }
