@@ -1254,6 +1254,7 @@ video {
     }
 
     #logo {
+        -webkit-box-sizing: border-box;
         height: 50px;
         padding: 3% 0;
         margin-left: -4%;
