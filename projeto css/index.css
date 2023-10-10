@@ -1255,8 +1255,7 @@ video {
     }
 
     #logo {
-        image-rendering: auto;
-        height: 50px;
+        width: 100%;
         padding: 3% 0;
         margin-left: -4%;
     }
