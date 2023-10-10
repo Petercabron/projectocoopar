@@ -1251,6 +1251,7 @@ video {
     #header2-logo {
         display: flex;
         align-items: center;
+        width: 40%;
     }
 
     #logo {
