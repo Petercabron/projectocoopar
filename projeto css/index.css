@@ -1251,13 +1251,19 @@ video {
     #header2-logo {
         display: flex;
         align-items: center;
-        column-width: 40%;
+        width: 55%;
+        column-width: 55%;
     }
 
     #logo {
         width: 100%;
-        padding: 3% 0;
+        padding: 0;
         margin-left: -4%;
+    }
+
+    #menu-mobile {
+        width: 10%;
+        column-width: 10%;
     }
 
     #btn-mobile {
