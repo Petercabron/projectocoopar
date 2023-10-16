@@ -555,8 +555,6 @@ video::-webkit-media-controls-play-button {}
 
 #row-contactos {
     margin-bottom: 30px;
-    position: absolute;
-    z-index: 1500;
 }
 
 #logo-vert {
