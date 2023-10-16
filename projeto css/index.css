@@ -173,6 +173,12 @@ video {
     opacity: 85%;
 }
 
+video::-webkit-media-controls {
+    display: none;
+}
+
+video::-webkit-media-controls-play-button {}
+
 .content {
     position: absolute;
     left: 15%;
